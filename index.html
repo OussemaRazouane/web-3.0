@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BIMO</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./sc.js"></script>
 </head>
 <body>
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.3.8/build/spline-viewer.js"></script>
     <spline-viewer url="https://prod.spline.design/bo2dUQ3X9WFjnb75/scene.splinecode"></spline-viewer>
     <iframe src="./frame.html"></iframe>
+    <audio autoplay loop id="aud">
+        <source src="./bm.mp3" type="audio/mpeg">  
+    </audio>
+    <button type="button" id="bt" onclick="change()">♫</button>
 </body>
 </html>
